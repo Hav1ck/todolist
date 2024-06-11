@@ -13,8 +13,21 @@
                     document.getElementById('header-placeholder').innerHTML = data;
                 });
         }
+        function loadFooter() {
+            fetch('../components/footer.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('footer-placeholder').innerHTML = data;
+                });
+        }
+        function loadComponents() {
+            loadHeader()
+            loadFooter()
+        }
     </script>
 </head>
-<body onload="loadHeader()">
+<body onload="loadComponents()">
     <div id="header-placeholder"></div>
+    <div id="footer-placeholder"></div>
+</body>
 </html>

@@ -2,27 +2,39 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
-
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
     background-color: #f8f8f8;
-    border-bottom: 1px solid #ccc;
-    position: fixed;
+    padding-bottom: 2%;
+    font-size: 200%;
+    border-bottom: 2px solid black;
     width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000;
+
 }
 
+.header{
+    border: white;
+}
 header-left{
     align-items: flex-start;
+    background-color: black;
+    width: 33%;
+    color: white;
+    border-right: black;
 }
 header-right{
     align-items: flex-end;
+    background-color: black;
+    width: 33%;
+    color: white;
+    border-right: black;
 }
 header-center{
     align-items: center;
+    background-color: black;
+    width: 34%;
+    color: white;
+    border-right: black;
+
 }
