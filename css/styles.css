@@ -58,3 +58,6 @@ footer {
     color: inherit;
     text-decoration: none;
 }   
+.footer-right, .header-right{
+    padding-right: 50px;
+}
