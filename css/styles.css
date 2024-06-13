@@ -10,31 +10,38 @@ header {
     font-size: 200%;
     border-bottom: 2px solid black;
     width: 100%;
-
 }
 
-.header{
+.header {
     border: white;
 }
-header-left{
-    align-items: flex-start;
-    background-color: black;
-    width: 33%;
-    color: white;
-    border-right: black;
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    padding-bottom: 2%;
+    font-size: 200%;
+    border-top: 2px solid black;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
-header-right{
-    align-items: flex-end;
-    background-color: black;
-    width: 33%;
-    color: white;
-    border-right: black;
+
+.footer {
+    border: white;
 }
-header-center{
+header-left, header-right, header-center {
+    display: flex;
     align-items: center;
     background-color: black;
-    width: 34%;
     color: white;
     border-right: black;
-
+}
+header-left, header-right {
+    width: 33%;
+}
+header-center {
+    width: 34%;
 }
